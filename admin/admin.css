@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100%;
+}
+
+.main_container{
+    height: 100%;
+    width: 100%;
+}
+.sec_container{
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(12,1fr);
+    background-color: greenyellow;
+    
+}
+/* navbar */
+
+
+/* section: 2 */
+.section_sec{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5vh 0vh ;
+    /* background-color: rgba(0, 255, 255, 0.342); */
+}
+.user_data{
+    height: 110vh;
+    width: 95%;
+    background-color: rgba(149, 177, 177, 0.61);
+    
+    display:flex;
+    justify-content: center;
+}
+
+.data_table{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.data_table th{
+    height: 45px;
+    /* border: 2px solid white; */
+    font-size: 25px;
+    font-family: 'Borel', cursive;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.data_table tr{
+    border: 2px solid white;
+
+}
+.data_table td{
+    border: 2px solid white;
+    width: 20vh;
+    padding: 10px;
+}
+.main_tr{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+}
